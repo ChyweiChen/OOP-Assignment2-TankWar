@@ -17,7 +17,7 @@ public class TankMovement : MonoBehaviour {
 
     void FixedUpdate()
     {
-        float v = Input.GetAxis("Verticalplayer"+number);
+        float v = Input.GetAxis("Verticalplayer" + number);
         rigidbody.velocity = transform.forward * v * speed;
 
         float h = Input.GetAxis("player" + number + "Horizontal");
