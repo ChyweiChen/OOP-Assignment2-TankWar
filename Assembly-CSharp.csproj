@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\DestroyForTime.cs" />
+     <Compile Include="Assets\Scrips\CameraControl.cs" />
      <Compile Include="Assets\Scrips\GameManager.cs" />
      <Compile Include="Assets\Scrips\TankManager.cs" />
      <Compile Include="Assets\Shell.cs" />
