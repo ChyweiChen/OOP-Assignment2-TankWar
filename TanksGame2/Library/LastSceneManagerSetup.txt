@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/Mian.unity
+- path: Assets/Scene/PVE.unity
   isLoaded: 1
   isActive: 1

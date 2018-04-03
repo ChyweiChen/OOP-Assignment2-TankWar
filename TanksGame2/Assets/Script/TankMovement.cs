@@ -8,7 +8,7 @@ public class TankMovement : MonoBehaviour {
     public float angularSpeed = 30;
     public int number = 1; //judge a player by different number 
     private new Rigidbody rigidbody;
-
+private TankAttack ta;
     public AudioClip idleAudio;
     public AudioClip drivingAudio;
 
@@ -18,6 +18,7 @@ public class TankMovement : MonoBehaviour {
 	void Start () {
         rigidbody = this.GetComponent<Rigidbody>();
         audio = this.GetComponent <AudioSource>();
+		ta = GetComponent<TankAttack>();
 	}
 	
 	
@@ -43,6 +44,11 @@ public class TankMovement : MonoBehaviour {
             audio.volume = 0.2f;
             if (audio.isPlaying == false)
                 audio.Play();
+        }
+		 if (Input.GetKeyDown(KeyCode.Space))
+        {
+          ta.Shoot();
+
         }
     }
 }
