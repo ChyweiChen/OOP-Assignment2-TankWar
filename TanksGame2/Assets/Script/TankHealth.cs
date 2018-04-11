@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TankHealth : MonoBehaviour {
 
+    public int damage =0;
     public int hp = 100;
     public GameObject tanExplosion;
     public AudioClip tankExplosionAudio;
@@ -17,10 +18,22 @@ public class TankHealth : MonoBehaviour {
 		
 	}
 
+    int Add_Health()
+    {
+        hp += 5;
+        return hp;
+    }
+     int Add_Damage()
+    {
+        damage += 5;
+        return damage;
+    }
     void TakeDamage()
     {
         if (hp <= 0) return;
-        hp -= Random.Range(8,15);
+        //hp -= Random.Range(8,15) + damage;
+        damage = Add_Damage();
+        hp = hp - (3 + damage);
         if (hp <= 0)
         {
             AudioSource.PlayClipAtPoint(tankExplosionAudio, transform.position);

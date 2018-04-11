@@ -20,7 +20,11 @@ public class TankMovement : MonoBehaviour {
         audio = this.GetComponent <AudioSource>();
 	}
 	
-	
+	float Add_Speed()
+    {
+        speed += 5;
+        return speed;
+    }
 
     void FixedUpdate()
     {

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/TankGame1.unity
+- path: TanksGame2/Assets/Scene/Mian.unity
   isLoaded: 1
   isActive: 1

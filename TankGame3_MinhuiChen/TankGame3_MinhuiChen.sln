@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TankGame3_MinhuiChen.Plugins", "TankGame3_MinhuiChen.Plugins.csproj", "{65171463-F9E1-C12E-511F-DB01DF52F994}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TankGame3_MinhuiChen", "TankGame3_MinhuiChen.csproj", "{B4580F9F-8227-00DB-436F-F9876285FCEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TankGame3_MinhuiChen.Editor", "TankGame3_MinhuiChen.Editor.csproj", "{4C63F4E0-129F-5925-B4E2-3EC3331DC115}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65171463-F9E1-C12E-511F-DB01DF52F994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65171463-F9E1-C12E-511F-DB01DF52F994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65171463-F9E1-C12E-511F-DB01DF52F994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65171463-F9E1-C12E-511F-DB01DF52F994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4580F9F-8227-00DB-436F-F9876285FCEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4580F9F-8227-00DB-436F-F9876285FCEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4580F9F-8227-00DB-436F-F9876285FCEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4580F9F-8227-00DB-436F-F9876285FCEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C63F4E0-129F-5925-B4E2-3EC3331DC115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C63F4E0-129F-5925-B4E2-3EC3331DC115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C63F4E0-129F-5925-B4E2-3EC3331DC115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C63F4E0-129F-5925-B4E2-3EC3331DC115}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
