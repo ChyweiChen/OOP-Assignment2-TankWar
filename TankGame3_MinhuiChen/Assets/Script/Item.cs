@@ -16,17 +16,20 @@ public class Item : MonoBehaviour {
 	}
     public void OnTriggerEnter(Collider collider)
     {
-        GameObject.Destroy(this.gameObject);
 
-        if (collider.tag == "tank")  //when shell touch tank
+        if (collider.tag == "tank")  //when tank touch item
         {
-            if (ItemType == 0)
-                collider.SendMessage("Add_Health");
-            if (ItemType == 1)
-            collider.SendMessage("Add_Damage");
-            if (ItemType == 2)
-                collider.SendMessage("Add_Speed");
-
+			if (ItemType == 0) {
+				collider.SendMessage ("Create");
+				collider.SendMessage ("Add_Health");
+			} else if (ItemType == 1) {
+				collider.SendMessage ("Add_Damage");
+				collider.SendMessage ("Create");
+			} else if (ItemType == 2) {
+				collider.SendMessage ("Add_Speed");
+				collider.SendMessage ("Create");
+			}
         }
+		GameObject.Destroy(this.gameObject);
     }
 }

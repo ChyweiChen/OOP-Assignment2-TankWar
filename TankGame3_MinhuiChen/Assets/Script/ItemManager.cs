@@ -17,35 +17,23 @@ public class ItemManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        InvokeRepeating("Create_Item",5, 5);
-
+        Invoke("Create_Item",1);
     }
 
     // Update is called once per frame
     void Update () {
         
         }
+	void Create()
+	{
+		Invoke("Create_Item",5);
+	}
     void Create_Item()
     {
         System.Random ran = new System.Random();
-        
-        do
-        {
-            int Ran_Item = ran.Next(0, 2);
-            int Ran_Item_Pos = ran.Next(0, 5);
-        }
-        while (Item == Ran_Item);
-       /* Item = Ran_Item;
-        do
-        {
-            int Ran_Item_Pos = ran.Next(0, 5);
-        }
-        while (Item_Pos == Ran_Item_Pos);
-        */
-        Item_Pos = Ran_Item_Pos;
-        
-        //int Item = ran.Next(0, 2);
-        //int Item_Pos = ran.Next(0, 5);
+
+        int Item = ran.Next(0, 2);
+        int Item_Pos = ran.Next(0, 5);
 
         switch (Item)
             {
