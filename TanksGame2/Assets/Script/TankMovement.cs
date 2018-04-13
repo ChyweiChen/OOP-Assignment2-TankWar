@@ -8,7 +8,7 @@ public class TankMovement : MonoBehaviour {
     public float angularSpeed = 30;
     public int number = 1; //judge a player by different number 
     private new Rigidbody rigidbody;
-private TankAttack ta;
+    private TankAttack ta;
     public AudioClip idleAudio;
     public AudioClip drivingAudio;
 
@@ -21,7 +21,13 @@ private TankAttack ta;
 		ta = GetComponent<TankAttack>();
 	}
 	
-	
+	void Update()
+	{
+		 if (Input.GetKeyDown(KeyCode.Space))
+        {
+          ta.Shoot();
+        }
+	}
 
     void FixedUpdate()
     {
@@ -30,7 +36,7 @@ private TankAttack ta;
 
         float h = Input.GetAxis("player" + number + "Horizontal");
         rigidbody.angularVelocity = transform.up * h * angularSpeed; //rotational speed 
-
+     
         //when tank is runing
         if (Mathf.Abs(h) > 0.1 || Mathf.Abs(v) > 0.1)
         {
@@ -45,10 +51,6 @@ private TankAttack ta;
             if (audio.isPlaying == false)
                 audio.Play();
         }
-		 if (Input.GetKeyDown(KeyCode.Space))
-        {
-          ta.Shoot();
-
-        }
+		
     }
 }

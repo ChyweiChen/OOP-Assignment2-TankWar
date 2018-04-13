@@ -51,9 +51,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\FollowTarget.cs" />
      <Compile Include="Assets\Script\AITank.cs" />
+     <Compile Include="Assets\Script\cameraPO.cs" />
      <Compile Include="Assets\Script\DestroyForTime.cs" />
+     <Compile Include="Assets\Script\live.cs" />
+     <Compile Include="Assets\Script\playerManagement.cs" />
      <Compile Include="Assets\Script\Shell.cs" />
      <Compile Include="Assets\Script\TankAttack.cs" />
      <Compile Include="Assets\Script\TankHealth.cs" />

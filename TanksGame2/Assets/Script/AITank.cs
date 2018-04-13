@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class AITank : MonoBehaviour {
-    public GameObject player;
+    //public GameObject player;
 	public float moveSpeed;
 	public float attackRange;
 	public float shootCoolDown;
@@ -14,18 +14,21 @@ public class AITank : MonoBehaviour {
 	// Use this for initialization
 	void Start () { 
 		ta = GetComponent<TankAttack>();
+
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate()
 	{
+		GameObject p  = GameObject.FindWithTag("Player");
+		if(p == null) return;
 		timer += Time.fixedDeltaTime;
-		float dist = Vector3.Distance(player.transform.position, transform.position);
+		float dist = Vector3.Distance(p.transform.position, transform.position);
 		if(dist > attackRange)
 		{
 		transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
 		}
-		transform.LookAt(player.transform.position);
+		transform.LookAt(p.transform.position);
 		
 		if(timer > shootCoolDown)
 		{
