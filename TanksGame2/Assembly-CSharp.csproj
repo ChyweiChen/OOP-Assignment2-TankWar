@@ -56,6 +56,7 @@
      <Compile Include="Assets\Script\DestroyForTime.cs" />
      <Compile Include="Assets\Script\live.cs" />
      <Compile Include="Assets\Script\playerManagement.cs" />
+     <Compile Include="Assets\Script\restart.cs" />
      <Compile Include="Assets\Script\Score.cs" />
      <Compile Include="Assets\Script\Shell.cs" />
      <Compile Include="Assets\Script\TankAttack.cs" />

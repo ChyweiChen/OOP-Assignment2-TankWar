@@ -17,10 +17,8 @@ public class TankHealth : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate () {
 
-
-
 	}
-
+     
     void TakeDamage()
     {
 		GameObject go = GameObject.Find("ScoreControler");

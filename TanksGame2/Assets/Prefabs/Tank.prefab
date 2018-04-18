@@ -673,7 +673,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   attackRange: 17
-  shootCoolDown: 3
+  shootCoolDown: 0.5
 --- !u!198 &198065409337145816
 ParticleSystem:
   m_ObjectHideFlags: 1
