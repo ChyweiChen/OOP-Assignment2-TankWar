@@ -6,6 +6,7 @@ TagManager:
   tags:
   - tank
   - Enemy
+  - Text
   layers:
   - Default
   - TransparentFX
