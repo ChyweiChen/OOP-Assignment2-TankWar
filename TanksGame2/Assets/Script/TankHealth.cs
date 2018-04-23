@@ -1,8 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TankHealth : MonoBehaviour {
+	public Slider slider;
     public int score1 = 1;
     public int hp = 100;
     public GameObject tanExplosion;
@@ -23,8 +25,10 @@ public class TankHealth : MonoBehaviour {
     {
 		GameObject go = GameObject.Find("ScoreControler");
 		Score other = (Score)go.GetComponent(typeof(Score));
+		
         if (hp <= 0) return;
         hp -= Random.Range(8,15);
+		slider.value = hp;
         if (hp <= 0)
         {
 			other.addScore(score1);
