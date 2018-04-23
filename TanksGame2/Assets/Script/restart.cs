@@ -15,16 +15,16 @@ public class restart : MonoBehaviour {
 	{
 		
 		GameObject player = GameObject.Find("player");
-		TankHealth TH = (TankHealth)player.GetComponent(typeof(TankHealth));
-Debug.Log(TH.hp);
+		//TankHealth TH = (TankHealth)player.GetComponent(typeof(TankHealth));
+//Debug.Log(TH.hp);
 GameObject go = GameObject.Find("ScoreControler");
 		Score other = go.GetComponent<Score>();
 		
 		
-		if(TH.hp <= 12)
+		if(null == player)
 		{
-			Debug.Log("hhhh");
-	      gameover.text = "GameOver your score is: " + other.score + " Please press 'R' to restart";
+	
+	      gameover.text = "GameOver your score is: " + other.score + "\n Please press 'R' to restart";
 		  if( Input.GetKeyDown(KeyCode.R) )
 		  {
 			  SceneManager.LoadScene("PVE");
