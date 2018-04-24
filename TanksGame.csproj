@@ -288,11 +288,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\DestroyForTime.cs" />
-    <Compile Include="Assets\Shell.cs" />
-    <Compile Include="Assets\TankAttack.cs" />
-    <Compile Include="Assets\TankHealth.cs" />
-    <Compile Include="Assets\TankMovement.cs" />
+    <Compile Include="Assets\FollowTarget.cs" />
+    <Compile Include="Assets\Script\DestroyForTime.cs" />
+    <Compile Include="Assets\Script\Shell.cs" />
+    <Compile Include="Assets\Script\TankAttack.cs" />
+    <Compile Include="Assets\Script\TankHealth.cs" />
+    <Compile Include="Assets\Script\TankMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fonts\Bowlby_One\OFL.txt" />
