@@ -42,7 +42,7 @@ public class ItemManager : MonoBehaviour {
 
             do
             {
-                Ran_Item = ran.Next(0, 2);
+                Ran_Item = ran.Next(1, 4);
 
             } while (Item == Ran_Item);
             Item = Ran_Item;
@@ -52,17 +52,18 @@ public class ItemManager : MonoBehaviour {
             }
             while (Item_Pos == Ran_Item_Pos);
             Item_Pos = Ran_Item_Pos;
+
             switch (Item)
             {
-                case 0:
+                case 1:
                     Instantiate(Add_Health, ItemPos[Item_Pos].transform.position, ItemPos[Item_Pos].transform.rotation);
                     No_Item++;
                     break;
-                case 1:
+                case 2:
                     Instantiate(Add_Damage, ItemPos[Item_Pos].transform.position, ItemPos[Item_Pos].transform.rotation);
                     No_Item++;
                     break;
-                case 2:
+                case 3:
                     Instantiate(Add_Barrel, ItemPos[Item_Pos].transform.position, ItemPos[Item_Pos].transform.rotation);
                     No_Item++;
                     break;

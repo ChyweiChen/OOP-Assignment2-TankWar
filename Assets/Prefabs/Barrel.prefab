@@ -23,7 +23,6 @@ GameObject:
   - component: {fileID: 65189893964940178}
   - component: {fileID: 114137839336023774}
   - component: {fileID: 82972473929283286}
-  - component: {fileID: 114750331584789226}
   - component: {fileID: 114688498890691140}
   m_Layer: 0
   m_Name: Barrel
@@ -774,27 +773,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4490cdbba962d348bbdd56cddf2d45e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114750331584789226
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1341416819172560}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25c0ad4ff383bdd4cbbda3cfec35bf4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Add_Health: {fileID: 1962329386847238, guid: 8c8c1a8606d01bf4488e963f77b37eee, type: 2}
-  Add_Damage: {fileID: 1414092899904310, guid: 85aa2b766319c5048bd01ec21ba1886a, type: 2}
-  Add_Barrel: {fileID: 1341416819172560}
-  ItemType: 2
-  ItemPos: []
-  No_Item: 0
-  Item: 0
-  Item_Pos: 0
-  Ran_Item: 0
-  Ran_Item_Pos: 0
 --- !u!114 &114924146396774056
 MonoBehaviour:
   m_ObjectHideFlags: 1

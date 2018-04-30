@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TankGame4", "TankGame4.csproj", "{2E341E90-0CF7-07A4-33A7-80DE95916A61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TankGame4.Plugins", "TankGame4.Plugins.csproj", "{5AB93DE1-85E7-9BB5-899C-28A07AD68CDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TankGame4.Editor", "TankGame4.Editor.csproj", "{59D794FF-114A-1FA7-D72F-EE05FB20C3D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E341E90-0CF7-07A4-33A7-80DE95916A61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E341E90-0CF7-07A4-33A7-80DE95916A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E341E90-0CF7-07A4-33A7-80DE95916A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E341E90-0CF7-07A4-33A7-80DE95916A61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AB93DE1-85E7-9BB5-899C-28A07AD68CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AB93DE1-85E7-9BB5-899C-28A07AD68CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AB93DE1-85E7-9BB5-899C-28A07AD68CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AB93DE1-85E7-9BB5-899C-28A07AD68CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59D794FF-114A-1FA7-D72F-EE05FB20C3D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D794FF-114A-1FA7-D72F-EE05FB20C3D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D794FF-114A-1FA7-D72F-EE05FB20C3D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D794FF-114A-1FA7-D72F-EE05FB20C3D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
