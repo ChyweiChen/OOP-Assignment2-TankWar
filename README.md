@@ -2,7 +2,7 @@
 This is a simple game wihich is made by unity
 
 ## Project Name:
-Unity 3D Gmae TankWar
+Unity 3D Game TankWar
 
 ## Team Information:
 ### Team Name:
@@ -37,14 +37,17 @@ score you get. And you can restar game or come back menu.
 ## What We Have Done
 We use git to manage the source code on our project. There are 3 branchs for 3 team members. And you can see our commit in diferent branch.
 <br/>
+<br/>
 Yuwei Chen(D16123951):
 <br/>The team leader, creat basic game model, creat code to control tank move, control shell shoot, shell damage etc. Organize team meeting,
 solve team problem, creat git repository and merge code wihch is upload by other team member.
+<br/>
 <br/>
 Minhui Chen(D17125347):
 <br/>
 Mainly responsible for player VS player game mode, craete buff and design game menu,
 make the embedded video demo.
+<br/>
 <br/>
 Jianyu He(D17124591):
 </br>
