@@ -28,3 +28,8 @@ In the PVP(plarer VS plarer) game mode there are two tanks and player control ta
 players have some chance to get some buff to let tank add health, speed and attack damage in random.
 When one tank is destroied it's the loser and the another one is winer.
 ![alttext](https://github.com/ChyweiChen/OOP-Assignment2-TankWar/blob/master/pVpEnd.png)
+![alttext](https://github.com/ChyweiChen/OOP-Assignment2-TankWar/blob/master/PVP.png)
+In the PVB(player VS bot) game mode there are one player tank against many bot tanks,
+when player tank kill one bot tank will get one score, when player distroy the game is over and you can see how many
+score you get. And you can restar game or come back menu.
+![alttext](https://github.com/ChyweiChen/OOP-Assignment2-TankWar/blob/master/PVB.png)
